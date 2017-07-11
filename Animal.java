@@ -1,5 +1,3 @@
-# animals
-
 package si.rais;
 
 import java.time.LocalDate;
