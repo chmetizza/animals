@@ -9,7 +9,7 @@ public class Dog extends Animal {
     private String name;
 
     public Dog(int age, LocalDate birthDay, String name) {
-        super(age, birthDay);
+        super(birthDay);
         this.name = name;
     }
 }

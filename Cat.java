@@ -15,14 +15,16 @@ public class Cat extends Animal {
     gender spol;
 
     public Cat() {
-        super(10, LocalDate.of(2004,4,1));
+        super(LocalDate.of(2004,7,13));
     }
 
     public String getName() {
+
         return name;
     }
 
     public void setName(String name) {
+
         this.name = name;
     }
 
