@@ -1,9 +1,6 @@
 package si.rais;
 
 import java.time.LocalDate;
-import java.time.LocalTime;
-
-import static si.rais.Cat.gender.Ž;
 
 /**
  * Created by spela on 11. 07. 2017.
@@ -36,7 +33,7 @@ public class Cat extends Animal {
         this.color = color;
     }
 
-    public String getSpol() {
+    public String stringSpol() {
        String mz;
        if(spol == gender.Ž){
            mz = "ženska";
@@ -47,7 +44,12 @@ public class Cat extends Animal {
         return mz;
     }
 
-    public void setSpol(gender spol) {
+    public gender setSpol(gender spol) {
         this.spol = spol;
+        return spol;
+    }
+
+    public gender getSpol() {
+        return spol;
     }
 }

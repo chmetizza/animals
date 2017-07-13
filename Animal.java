@@ -12,15 +12,16 @@ public class Animal {
     private LocalDate birthDay;
 
     public Animal( LocalDate birthDay) {
-
         this.birthDay = birthDay;
     }
 
     public LocalDate getBirthDay() {
+
         return birthDay;
     }
 
     public void setBirthDay(LocalDate birthDay) {
+
         this.birthDay = birthDay;
     }
 
