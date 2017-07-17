@@ -8,11 +8,11 @@ import java.time.LocalDate;
 public class Cat extends Animal {
     private String name;
     private String color;
-    protected enum gender{M,Ž};
-    gender spol;
+    /*protected enum gender{M,Ž};
+    gender spol;*/
 
     public Cat() {
-        super(LocalDate.of(2004,7,13));
+        super(LocalDate.of(2004,7,13),Spol.M);
     }
 
     public String getName() {
@@ -33,7 +33,7 @@ public class Cat extends Animal {
         this.color = color;
     }
 
-    public String stringSpol() {
+    /*public String stringSpol() {
        String mz;
        if(spol == gender.Ž){
            mz = "ženska";
@@ -51,5 +51,5 @@ public class Cat extends Animal {
 
     public gender getSpol() {
         return spol;
-    }
+    }*/
 }

@@ -7,7 +7,7 @@ import java.time.LocalDate;
  */
 public class Bird extends Animal {
     public Bird() {
-        super(LocalDate.of(2015,12,2));
+        super(LocalDate.of(2015,12,2),Spol.M);
         System.out.println("To je class Bird, ki extenda class Animal");
     }
 }

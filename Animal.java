@@ -10,9 +10,13 @@ import static java.time.LocalDate.now;
  */
 public class Animal {
     private LocalDate birthDay;
+    private Spol spol;
 
-    public Animal( LocalDate birthDay) {
+    public Animal( LocalDate birthDay, Spol spol) {
         this.birthDay = birthDay;
+        this.spol = spol;
+        //spol = Spol.M;
+
     }
 
     public LocalDate getBirthDay() {
@@ -23,6 +27,15 @@ public class Animal {
     public void setBirthDay(LocalDate birthDay) {
 
         this.birthDay = birthDay;
+    }
+
+    public Spol getSpol() {
+        spol.getSloSpol();
+        return spol;
+    }
+
+    public void setSpol(Spol spol) {
+        this.spol = spol;
     }
 
     public int getAge(LocalDate birthDay){

@@ -8,8 +8,8 @@ import java.time.LocalDate;
 public class Dog extends Animal {
     private String name;
 
-    public Dog(int age, LocalDate birthDay, String name) {
-        super(birthDay);
+    public Dog(LocalDate birthDay, String name) {
+        super(birthDay, Spol.M);
         this.name = name;
     }
 }
