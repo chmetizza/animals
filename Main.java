@@ -10,16 +10,16 @@ public class Main {
     public static void main(String[] args) /*throws IOException*/ {
 	// write your code here
         Cat cat = new Cat();
-        cat.setName("Mac");
+        cat.setName("Maca");
         //cat.setSpol(Cat.gender.M);
         cat.setColor("črna");
         cat.setSpol(Spol.F);
 
         if(cat.getSpol() == Spol.F){
-            System.out.println(cat.getName() + " " + "je stara" + " " + cat.getAge(cat.getBirthDay()) + " " + "let! ");
+            System.out.println(cat.getName() + " " + "je stara" + " " + cat.getAge(cat.getBirthDay()) + " " + "let!");
         }
         else{
-            System.out.println(cat.getName() + " " + "je star" + " " + cat.getAge(cat.getBirthDay()) + " " + "let! ");
+            System.out.println(cat.getName() + " " + "je star" + " " + cat.getAge(cat.getBirthDay()) + " " + "let!");
         }
         System.out.println("Spol: " + " " + cat.getSpol().getSloSpol());
         System.out.println("Barva: " + cat.getColor());

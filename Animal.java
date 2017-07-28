@@ -15,8 +15,6 @@ public class Animal {
     public Animal( LocalDate birthDay, Spol spol) {
         this.birthDay = birthDay;
         this.spol = spol;
-        //spol = Spol.M;
-
     }
 
     public LocalDate getBirthDay() {
@@ -30,7 +28,7 @@ public class Animal {
     }
 
     public Spol getSpol() {
-        spol.getSloSpol();
+        //spol.getSloSpol();
         return spol;
     }
 
